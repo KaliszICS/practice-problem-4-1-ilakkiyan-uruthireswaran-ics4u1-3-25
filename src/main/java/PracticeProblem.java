@@ -2,26 +2,18 @@ public class PracticeProblem {
 
 	public static void main(String args[]) {
 
+		Rectangle rec = new Rectangle(2, 4);
+		System.out.println(rec.area());
+
+		Circle cir = new Circle(2);
+		System.out.println(cir.area());
+
+		Person bro = new Person("Ilakkiyan", 18, 165, 75, "Black", "Black");
+		System.out.println(bro.getHeight());
+
+
 	}
 
-	public static void q1() {
-		//Write question 1 code here
-	}
-
-	public static void q2() {
-		//Write question 2 code here
-	}
-
-	public static void q3() {
-		//Write question 3 code here
-	}
-
-	public static void q4() {
-		//Write question 4 code here
-	}
-
-	public static void q5() {
-		//Write question 5 code here
-	}
+	
 
 }
